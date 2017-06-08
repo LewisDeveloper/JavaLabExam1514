@@ -1,7 +1,7 @@
 
 public class TV implements HAS_Interface{
 	
-	boolean power = false;
+	public boolean power = false;
 	public void onOff(){
 		if(power!=true){
 			power=true;

@@ -23,6 +23,7 @@ public class HAS_Main {
 	      TV my_TV = new TV();
 	      my_TV.VolumeUp();
 	      my_TV.VolumeDown();
+	      Appliance_3.onOff();
 	}
 
 }

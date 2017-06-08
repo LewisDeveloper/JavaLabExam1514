@@ -1,6 +1,6 @@
 
 public class Lights implements HAS_Interface{
-	boolean power = false;
+	public boolean power = false;
 	public void onOff(){
 		if(power!=true){
 			power=true;
