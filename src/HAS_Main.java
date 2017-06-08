@@ -6,15 +6,23 @@ public class HAS_Main {
 
 	      HAS_Interface Appliance_1 = my_HAS_Factory.getAppliance("AC");
 
-	      Appliance_1.on();
+	      Appliance_1.onOff();
 
 	      HAS_Interface Appliance_2 = my_HAS_Factory.getAppliance("Lights");
 
-	      Appliance_2.on();
+	      Appliance_2.onOff();
 
 	      HAS_Interface Appliance_3 = my_HAS_Factory.getAppliance("TV");
 
-	      Appliance_3.on();
+	      Appliance_3.onOff();
+	      
+	      HAS_Interface Appliance_4 = my_HAS_Factory.getAppliance("Washing Machine");
+
+	      Appliance_4.onOff();
+	      
+	      TV my_TV = new TV();
+	      my_TV.VolumeUp();
+	      my_TV.VolumeDown();
 	}
 
 }
