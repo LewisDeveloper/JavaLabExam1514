@@ -1,6 +1,5 @@
 
 public class HAS_Factory {
-	//use getShape method to get object of type shape 
 	   public HAS_Interface getAppliance(String Appliance){
 	      if(Appliance == null){
 	         return null;
